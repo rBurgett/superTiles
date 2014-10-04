@@ -11,7 +11,6 @@ var superTiles = {
                 background: 'url(images/' + obj.attr('data-superTiles') + ')'
             });
             setInterval(function(){
-                console.log(obj.attr('data-supertoggle'));
                 if (obj.attr('data-superToggle') == 'true') {
                     obj.css('background-position', '-' + obj.attr('width') + 'px 0');
                     obj.attr('data-superToggle', 'false');
