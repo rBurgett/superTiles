@@ -5,11 +5,12 @@ var superTiles = {
             obj.css({
                 'background-position': '0 0',
                 '-webkit-transition': 'background-position 1s',
-                transition: 'background-position 1s',
+                transition: 'background-position 1s ease',
                 width: obj.attr('width'),
                 height: obj.attr('height'),
-                background: 'url(images/' + obj.attr('data-superTiles') + ')'
+                background: 'url(' + obj.attr('data-superTiles') + ')'
             });
+            obj.attr('data-superToggle', 'true');
             setInterval(function(){
                 if (obj.attr('data-superToggle') === 'true') {
                     obj.css('background-position', '-' + obj.attr('width') + 'px 0');
