@@ -7,7 +7,7 @@ First, add superTiles.js to the bottom of your HTML document. If you have not ad
 ```
 superTiles.activate()
 ```
-If you were doing this using jQuery, you could add it to your JavaScript file as such:
+If you were doing this using jQuery, you could add it to your JavaScript file as follows:
 ```
 $(document).ready(function () {
     superTiles.activate();
@@ -18,11 +18,32 @@ Now go back to your HTML document and add your image. Each image needs to be a s
 <img class="superTiles" src='images/trans-img.gif' data-superTiles="meteor.png" width='420' height='200'>
 ```
 As shown above, you need to add the following attributes to your ```<img>``` tags:
-<ul>
-    <li>class= "superTiles"</li>
-    <li>src= "[path to a transparent image]"</li>
-    <li>data-superTiles= "[path to your image sprite]"</li>
-    <li>width= "[enter half the width of the sprite]"</li>
-    <li>height= "[enter the height of your sprite]"</li>
-</ul>
+
+<table>
+    <tr>
+        <th>Attribute</th>
+        <th>Value</th>
+    </tr>
+    <tr>
+        <td>class</td>
+        <td>superTiles</td>
+    </tr>
+    <tr>
+        <td>src</td>
+        <td>[path to a transparent image]</td>
+    </tr>
+    <tr>
+        <td>data-superTiles</td>
+        <td>[path to your image sprite]</td>
+    </tr>
+    <tr>
+        <td>width</td>
+        <td>[enter half the width of the sprite]</td>
+    </tr>
+    <tr>
+        <td>height</td>
+        <td>[enter the height of your sprite]</td>
+    </tr>
+</table>
+
 Now load your page and watch them come to life!
