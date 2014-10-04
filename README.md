@@ -19,10 +19,10 @@ Now go back to your HTML document and add your image. Each image needs to be a s
 ```
 As shown above, you need to add the following attributes to your ```<img>``` tags:
 <ul>
-    <li>class="superTiles"</li>
-    <li>src="[path to a transparent image]"</li>
-    <li>data-superTiles="[path to your image sprite]"</li>
-    <li>width="[enter half the width of the sprite]"</li>
-    <li>height="[enter the height of your sprite]"</li>
+    <li>class= "superTiles"</li>
+    <li>src= "[path to a transparent image]"</li>
+    <li>data-superTiles= "[path to your image sprite]"</li>
+    <li>width= "[enter half the width of the sprite]"</li>
+    <li>height= "[enter the height of your sprite]"</li>
 </ul>
 Now load your page and watch them come to life!
