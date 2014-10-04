@@ -38,7 +38,7 @@ As shown above, you need to add the following attributes to your ```<img>``` tag
     </tr>
     <tr>
         <td>width</td>
-        <td>[enter half the width of the sprite]</td>
+        <td>[enter <strong>half</strong> the width of the sprite]</td>
     </tr>
     <tr>
         <td>height</td>
