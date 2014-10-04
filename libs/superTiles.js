@@ -27,7 +27,3 @@ var superTiles = {
 		return Math.floor(Math.random()*(6000-2000)+2000);
 	}
 };
-
-$(document).ready(function () {
-    superTiles.activate();
-});
